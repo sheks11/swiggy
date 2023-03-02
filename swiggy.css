@@ -6,6 +6,7 @@ body{
 .navbar-container{
     /* border: 1px solid red; */
     background-color:rgb(252, 249, 249);
+    color: dimgray;
     padding: 10px 25px;
     display: flex;
     justify-content: space-between;
@@ -13,6 +14,9 @@ body{
     position: sticky;
     top:0;
 
+}
+.navbar-container a{
+    color: black;
 }
 .left{
     /* border: 1px solid blue; */
@@ -51,7 +55,7 @@ body{
 }
 .container{
     width: 80vw;
-    margin:auto;
+    margin:25px auto;
 }
 .right-nav-2{
     display: flex;
@@ -159,11 +163,24 @@ p{
     color:rgb(205, 204, 204);
     text-decoration: none;
 }
+.footer a:hover{
+    font-weight: bold;
+}
 .appstore{
+    /* border: 1px solid yellow; */
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap:40px;
+   
 }
 .storeimg{
-    /* height:50px; */
+    height:60px;
+    width: 180px;
+    transition-duration: 0.4s;
+}
+.storeimg:hover{
+    width: 200px;
+    /* height: 80px; */
+    
 }
